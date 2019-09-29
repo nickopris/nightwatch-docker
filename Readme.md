@@ -10,7 +10,7 @@ Docker, Docker Compose
 First time run
 
     docker-compose up -d
-    docker-exec -it nightwatch npm install
+    docker exec -it nightwatch npm install
      
 Then
 
