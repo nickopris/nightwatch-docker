@@ -20,8 +20,10 @@ When('user click on search button', function () {
 
 Then('user should be able to see motorola homepage link', function () {
     return client.waitForElementVisible('body', 4000)
+        .saveScreenshot('./reports/search-result.png')
         .element('css selector', 'a[href="https://www.motorola.co.uk/home"]', function(visible) {
             client.assert.ok(visible.state === 'success')
         })
         .pause(4000)
+
 });
