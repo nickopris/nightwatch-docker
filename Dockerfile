@@ -1,6 +1,4 @@
 FROM node:carbon
-
-#RUN echo "deb http://http.debian.net/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
 RUN apt-get update && apt-get install  -y openjdk-8-jre
 
 RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
