@@ -1,0 +1,7 @@
+.cache
+.config
+.local
+.pki
+node_modules
+reports/*
+selenium-debug.log

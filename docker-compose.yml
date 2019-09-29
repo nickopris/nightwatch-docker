@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nightwatch:
+    build: .
+    container_name: nightwatch
+    command: "sh -c 'tail -f /dev/null'"
+    volumes:
+      - ./nightwatch:/home/node/app

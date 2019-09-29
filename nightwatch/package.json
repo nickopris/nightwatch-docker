@@ -1,0 +1,26 @@
+{
+  "name": "gojproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test_report": "node generatereport.js"
+  },
+  "author": "madhu",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^77.0.0",
+    "cucumber": "^4.2.1",
+    "cucumber-html-reporter": "^4.0.4",
+    "geckodriver": "^1.18.0",
+    "nightwatch": "^0.9.21",
+    "nightwatch-cucumber": "^9.1.3",
+    "safari": "0.0.1",
+    "selenium": "^2.20.0",
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {
+    "cucumber-pretty": "^1.5.0"
+  }
+}
