@@ -2,6 +2,8 @@
 
 This is an example of using Nightwatch with Cucumber on Docker.
 
+See it in action https://github.com/nickopris/nightwatch-docker/blob/master/demo.gif
+
 ## Requirements
 Docker, Docker Compose
 
