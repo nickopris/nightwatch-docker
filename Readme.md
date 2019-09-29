@@ -9,7 +9,7 @@ Docker, Docker Compose
 
 ## How to run
 
-First time run
+First time run (it will build the container from Dockerfile)
 
     docker-compose up -d
     docker exec -it nightwatch npm install
