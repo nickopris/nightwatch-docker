@@ -2,6 +2,7 @@
 .config
 .local
 .pki
+.npm
 node_modules
 reports/*
 selenium-debug.log

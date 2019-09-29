@@ -19,7 +19,10 @@
     "safari": "0.0.1",
     "selenium": "^2.20.0",
     "selenium-server": "^3.141.59",
-    "lodash.defaultsdeep": ">=4.6.1"
+    "lodash.defaultsdeep": ">=4.6.1",
+    "http-proxy-agent": ">=2.1.0",
+    "https-proxy-agent": ">=2.2.0",
+    "growl": ">=1.10.0"
   },
   "devDependencies": {
     "cucumber-pretty": "^1.5.0"
